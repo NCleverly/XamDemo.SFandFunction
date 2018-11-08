@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application Name="fabric:/Xam.ServiceReliable.SF" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Xam.ServiceReliable.SF" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
     <Parameter Name="DatabaseSync_InstanceCount" Value="-1" />
+    <Parameter Name="AuthKey" Value="LHst6AbWIqlzC2jWi8n037Kms5srzf5cKfP1hgw269c2PJbwgsbv12DSBrK89YmySYOJzV1ino5ji2e3fr3OLw==" />
+    <Parameter Name="CollectionId" Value="crmleads" />
+    <Parameter Name="DatabaseId" Value="leads" />
+    <Parameter Name="Endpoint" Value="https://leads.documents.azure.com:443/" />
   </Parameters>
 </Application>

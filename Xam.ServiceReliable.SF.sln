@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Xam.ServiceReliable.SF", "Xam.ServiceReliable.SF\Xam.ServiceReliable.SF.sfproj", "{2D774D7D-0472-4D44-8E03-F673D1AB4285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseSync", "DatabaseSync\DatabaseSync.csproj", "{E7BB3FA8-2F00-4B51-BBEB-E62955A6EF1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseSync", "DatabaseSync\DatabaseSync.csproj", "{E7BB3FA8-2F00-4B51-BBEB-E62955A6EF1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDemo.Function", "XamDemo.Function\XamDemo.Function.csproj", "{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{E7BB3FA8-2F00-4B51-BBEB-E62955A6EF1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7BB3FA8-2F00-4B51-BBEB-E62955A6EF1A}.Release|x64.ActiveCfg = Release|Any CPU
 		{E7BB3FA8-2F00-4B51-BBEB-E62955A6EF1A}.Release|x64.Build.0 = Release|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Debug|x64.Build.0 = Debug|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Release|x64.ActiveCfg = Release|Any CPU
+		{5A9DCC7E-C7FE-4939-95D0-EDB03A07B56C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
